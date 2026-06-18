@@ -9,6 +9,12 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
     networks:
       - platform-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
 
   bookingservice:
     build:
@@ -20,6 +26,12 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
     networks:
       - platform-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
 
   notificationservice:
     build:
@@ -31,6 +43,12 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
     networks:
       - platform-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
 
 networks:
   platform-net:

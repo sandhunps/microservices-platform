@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TripService.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d5d43c1a00ec3b17cae1efd6cde34b75dc84fff")]
 [assembly: System.Reflection.AssemblyProductAttribute("TripService.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TripService.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
