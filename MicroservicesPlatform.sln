@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E6DBC4FB-6021-4ECA-AA47-01D42A771A28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TripService", "TripService", "{0097FCF4-E92B-4B0E-BF66-67FF7759F626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripService.Domain", "src\TripService\TripService.Domain\TripService.Domain.csproj", "{35C983C9-8E63-4CF1-8756-E443F4FD4546}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookingService", "BookingService", "{111A50FD-C647-4348-9859-7CE27847F63E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingService.API", "src\BookingService\BookingService.API\BookingService.API.csproj", "{E3BFC1E8-9B63-4EB2-A10A-CFC17DD6542D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingService.Domain", "src\BookingService\BookingService.Domain\BookingService.Domain.csproj", "{20A8935F-1215-4CB9-9BF2-B3BF5FB6B4DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotificationService", "NotificationService", "{55802645-8911-419C-9DB2-615CDE1A8E57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.API", "src\NotificationService\NotificationService.API\NotificationService.API.csproj", "{88FD1738-CE2A-47BA-9A0E-977B28BEB820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Domain", "src\NotificationService\NotificationService.Domain\NotificationService.Domain.csproj", "{8C54B76C-8376-46F2-9619-6AC2D3603D85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35C983C9-8E63-4CF1-8756-E443F4FD4546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C983C9-8E63-4CF1-8756-E443F4FD4546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C983C9-8E63-4CF1-8756-E443F4FD4546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C983C9-8E63-4CF1-8756-E443F4FD4546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3BFC1E8-9B63-4EB2-A10A-CFC17DD6542D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3BFC1E8-9B63-4EB2-A10A-CFC17DD6542D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3BFC1E8-9B63-4EB2-A10A-CFC17DD6542D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3BFC1E8-9B63-4EB2-A10A-CFC17DD6542D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A8935F-1215-4CB9-9BF2-B3BF5FB6B4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A8935F-1215-4CB9-9BF2-B3BF5FB6B4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A8935F-1215-4CB9-9BF2-B3BF5FB6B4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A8935F-1215-4CB9-9BF2-B3BF5FB6B4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FD1738-CE2A-47BA-9A0E-977B28BEB820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FD1738-CE2A-47BA-9A0E-977B28BEB820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FD1738-CE2A-47BA-9A0E-977B28BEB820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FD1738-CE2A-47BA-9A0E-977B28BEB820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C54B76C-8376-46F2-9619-6AC2D3603D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C54B76C-8376-46F2-9619-6AC2D3603D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C54B76C-8376-46F2-9619-6AC2D3603D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C54B76C-8376-46F2-9619-6AC2D3603D85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0097FCF4-E92B-4B0E-BF66-67FF7759F626} = {E6DBC4FB-6021-4ECA-AA47-01D42A771A28}
+		{35C983C9-8E63-4CF1-8756-E443F4FD4546} = {0097FCF4-E92B-4B0E-BF66-67FF7759F626}
+		{111A50FD-C647-4348-9859-7CE27847F63E} = {E6DBC4FB-6021-4ECA-AA47-01D42A771A28}
+		{E3BFC1E8-9B63-4EB2-A10A-CFC17DD6542D} = {111A50FD-C647-4348-9859-7CE27847F63E}
+		{20A8935F-1215-4CB9-9BF2-B3BF5FB6B4DB} = {111A50FD-C647-4348-9859-7CE27847F63E}
+		{55802645-8911-419C-9DB2-615CDE1A8E57} = {E6DBC4FB-6021-4ECA-AA47-01D42A771A28}
+		{88FD1738-CE2A-47BA-9A0E-977B28BEB820} = {55802645-8911-419C-9DB2-615CDE1A8E57}
+		{8C54B76C-8376-46F2-9619-6AC2D3603D85} = {55802645-8911-419C-9DB2-615CDE1A8E57}
+	EndGlobalSection
+EndGlobal
